@@ -1,0 +1,21 @@
+# Python virtual environment & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & local secrets
+.env
+.streamlit/credentials.toml
+
+# Local SQLite database (auto-initialized on startup; may store local API settings)
+accounting.db
+accounting.db-shm
+accounting.db-wal
+
+# Local embedding model weights (~91MB; auto-downloaded to ./local_model on first run)
+local_model/
+
+# macOS / OS metadata
+.DS_Store
